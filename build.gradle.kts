@@ -15,7 +15,7 @@ subprojects {
         extensions.configure<BaseExtension> {
             val isApp = this is AppExtension
 
-            compileSdkVersion(33)
+            compileSdkVersion(34)
 
             defaultConfig {
                 if (isApp) {
@@ -25,8 +25,8 @@ subprojects {
                 minSdk = 26
                 targetSdk = 34
 
-                versionName = "v22TIW"
-                versionCode = 22000
+                versionName = "v22TIW-20251111"
+                versionCode = 22011
 
                 if (!isApp) {
                     consumerProguardFiles("consumer-rules.pro")

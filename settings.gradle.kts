@@ -4,19 +4,17 @@ include(":module", ":hideapi")
 
 pluginManagement {
     repositories {
-        maven(url = "https://maven.kr328.app/releases")
+        mavenLocal()
         mavenCentral()
         google()
-        mavenLocal()
     }
 }
 
 dependencyResolutionManagement {
     repositories {
-        maven(url = "https://maven.kr328.app/releases")
+        mavenLocal()
         mavenCentral()
         google()
-        mavenLocal()
     }
     versionCatalogs {
         create("libs") {

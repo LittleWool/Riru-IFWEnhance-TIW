@@ -25,18 +25,11 @@ zygote {
 
     packages(ZygoteLoader.PACKAGE_SYSTEM_SERVER)
 
-    riru {
-        id = "riru-$moduleId".replace('-', '_')
-        name = "Riru - $moduleName"
-        archiveName = "riru-$moduleId-$versionName"
-        updateJson = "https://github.com/TigerBeanst/Riru-IFWEnhance-TIW/releases/latest/download/riru-$moduleId.json"
-    }
-
     zygisk {
         id = "zygisk-$moduleId".replace('-', '_')
         name = "Zygisk - $moduleName"
         archiveName = "zygisk-$moduleId-$versionName"
-        updateJson = "https://github.com/TigerBeanst/Riru-IFWEnhance-TIW/releases/latest/download/zygisk-$moduleId.json"
+        updateJson = "https://github.com/LittleWool/Riru-IFWEnhance-TIW/releases/latest/download/zygisk-$moduleId.json"
     }
 
     all {
